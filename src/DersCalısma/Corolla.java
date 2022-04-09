@@ -22,7 +22,7 @@ public class Corolla extends Toyota {
 
     public static void main(String[] args) {
         Corolla arb1 = new Corolla();
-        System.out.println(arb1.Hareket);//Araba
+        //System.out.println(arb1.Hareket);//Araba
         System.out.println(arb1.hiz);
         System.out.println(arb1.yakit);
         System.out.println(arb1.marka);
@@ -37,6 +37,8 @@ public class Corolla extends Toyota {
       Araba arb3 = new Araba();
         arb3.motor();
 
+       Toyota  arb4 = new Corolla();
+        arb4.motor();
     }
 
 }
